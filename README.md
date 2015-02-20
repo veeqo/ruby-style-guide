@@ -508,9 +508,9 @@ to help risks not getting used at all &ndash; no matter how good it is.
     empty line between the comment block and the `def`.
 <sup>[[link](#rdoc-conventions)]</sup>
 
-* <a name="80-character-limits"></a>
-  Limit lines to 80 characters.
-<sup>[[link](#80-character-limits)]</sup>
+* <a name="100-character-limits"></a>
+  Limit lines to 100 characters.
+<sup>[[link](#100-character-limits)]</sup>
 
 * <a name="no-trailing-whitespace"></a>
   Avoid trailing whitespace.
