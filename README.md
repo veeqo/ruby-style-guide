@@ -15,6 +15,10 @@ This guide is derived from https://github.com/bbatsov/ruby-style-guide and adapt
 
 -- Bozhidar Bastov
 
+*A style guide that reflects real-world usage gets used, and a style guide that holds to an ideal that has been rejected by the people it is supposed to help risks not getting used at all – no matter how good it is.*
+
+-- Bozhidar Bastov
+
 # The Ruby Style Guide
 
 This Ruby style guide recommends best practices so that real-world Ruby
