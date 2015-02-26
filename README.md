@@ -6,6 +6,11 @@ This guide is derived from https://github.com/bbatsov/ruby-style-guide and adapt
 
 -- Jerry Coffin
 
+*The primary objective [of a style guide] is to help you write legible code. Source code is a write-once/read-many-times medium, so don't be tempted to explore how much you can cram onto a single line or how you can employ side-effects in new and interesting ways. Leave the ostentation to the Perl world.*
+*The good news is that Ruby itself goes a long way towards helping you write clear code; the rest is up to you.*
+
+-- random github user
+
 # The Ruby Style Guide
 
 This Ruby style guide recommends best practices so that real-world Ruby
