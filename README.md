@@ -11,6 +11,10 @@ This guide is derived from https://github.com/bbatsov/ruby-style-guide and adapt
 
 -- random github user
 
+*After many years of experience, and too many arguments about style, my only advice is to tread lightly, and only choose to include, in a style guide, things that have significant benefit to the community. Otherwise all you’re really doing is yelling into the wind, as you’ll never get consensus on anything.*
+
+-- Bozhidar Bastov
+
 # The Ruby Style Guide
 
 This Ruby style guide recommends best practices so that real-world Ruby
