@@ -2,6 +2,10 @@
 
 This guide is derived from https://github.com/bbatsov/ruby-style-guide and adapted for Veeqo. Since we don't have to embrace the whole world, we have a luxury to soften some rules or add ones which we like.
 
+*Nearly everybody is convinced that every style but their own is ugly and unreadable. Leave out the "but their own" and they're probably right.*
+
+-- Jerry Coffin
+
 # The Ruby Style Guide
 
 This Ruby style guide recommends best practices so that real-world Ruby
