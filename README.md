@@ -1359,30 +1359,23 @@ condition](#safe-assignment-in-condition).
   you forget either of the rules above!
 <sup>[[link](#always-warn-at-runtime)]</sup>
 
-* <a name="lambda-multi-line"></a>
-  Use the new lambda literal syntax for single line body blocks. Use the
-  `lambda` method for multi-line blocks.
-<sup>[[link](#lambda-multi-line)]</sup>
+* <a name="new-lambda-syntax"></a>
+  Use new lambda syntax where possible.
+<sup>[[link](#new-lambda-syntax)]</sup>
 
   ```Ruby
   # bad
   l = lambda { |a, b| a + b }
   l.call(1, 2)
 
-  # correct, but looks extremely awkward
-  l = ->(a, b) do
-    tmp = a * 7
-    tmp * b / 50
-  end
-
   # good
   l = ->(a, b) { a + b }
-  l.call(1, 2)
+  l.(1, 2)
 
-  l = lambda do |a, b|
+  ->(a, b) do
     tmp = a * 7
     tmp * b / 50
-  end
+  end.(13, 42)
   ```
 
 * <a name="proc"></a>
