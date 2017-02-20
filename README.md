@@ -105,19 +105,19 @@ to help risks not getting used at all &ndash; no matter how good it is.
   ```
 
 * <a name="single-line-classes"></a>
-  Prefer a single-line format for class definitions with no body.
+There is no preference in a format for class definitions with no body.
 <sup>[[link](#single-line-classes)]</sup>
 
   ```Ruby
-  # bad
-  class FooError < StandardError
+  # ok (especially when class is *meant* to be extended in future)
+  class SomeClass < Ancestor
   end
 
-  # okish
-  class FooError < StandardError; end
-
-  # good
+  # ok (especially for many exception classes definitions in one place)
   FooError = Class.new(StandardError)
+
+  # not very good (no point to prefer it over a one-liner above)
+  class FooError < StandardError; end
   ```
 
 * <a name="no-single-line-methods"></a>
